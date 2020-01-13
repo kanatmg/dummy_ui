@@ -85,7 +85,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentTab,
-        onTap: (int value){
+        onTap: (int value) {
           setState(() {
             _currentTab = value;
           });
